@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        body {
+        font-size: 28px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #241654;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #462b9e;
+        }
+
+        .active {
+        background-color: #514caf;
+        }
+        .logo{
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .nav-bar{
+            text-align: center;
+        }
+        .img_inicio img{
+            width: 100%;
+            height: 100%;
+        }
+        .cards {
+          text-align: center;
+          padding-top: 8%;
+          padding-bottom: 10%;
+        }
+        .card img{
+          width: 350px;
+          height: 260px;
+        }
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: inline-block;
+        padding: 70px;
+        text-align: center;
+        justify-content: center;
+        }
+
+        .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+        padding: 2px 16px;
+        }
+        footer{
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #241654;
+        padding-top: 40px;
+        color: #fff;
+        }
+      .footer-content{
+          padding-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+       }
+      .footer-content h3{
+          font-size: 2.1rem;
+          font-weight: 500;
+          text-transform: capitalize;
+          line-height: 3rem;
+        }
+      .footer-content p{
+          max-width: 500px;
+          margin: 10px auto;
+          line-height: 28px;
+          font-size: 14px;
+          color: #cacdd2;
+        }
+      .footer-bottom{
+          background: #000;
+          width: 100%;
+          padding: 20px;
+      padding-bottom: 40px;
+          text-align: center;
+       }
+      .footer-bottom p{
+      
+          font-size: 14px;
+          word-spacing: 2px;
+          text-transform: capitalize;
+      }
+      .footer-bottom p a{
+        color:#44bae8;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      .footer-bottom span{
+          text-transform: uppercase;
+          opacity: .4;
+          font-weight: 200;
+      }
+      .footer-menu{
+        float: right;
+
+      }
+      .footer-menu ul{
+        display: flex;
+      }
+      .footer-menu ul li{
+      padding-right: 10px;
+      display: block;
+      }
+      .footer-menu ul li a{
+        color: #cfd2d6;
+        text-decoration: none;
+      }
+      .footer-menu ul li a:hover{
+        color: #27bcda;
+      }
+      .texto{
+        text-align: center;
+        padding-top: 10%;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/d5qscXx/horizontal-on-white-by-logaster-2.png" alt="horizontal-on-white-by-logaster-2" border="0"></a>
+    </div>
+    <ul class="nav-bar">
+    <li><a class="active" href="#home">Inicio</a></li>
+    <li><a href="#news">Pacotes</a></li>
+    <li><a href="#contact">Contatos</a></li>
+    <li><a href="#contact">Reservas</a></li>
+    </ul>
+    <div class="img_inicio">
+    <a href="https://imgbb.com/"><img src=" https://all.accor.com/middleware/images/1385747151790/1629793808968/ibis-135.jpg" alt="horizontal-on-white-by-logaster-2" border="0"></a>
+    </div>  
+    <div class="texto">
+    <h3>HOTÉIS ANIMADOS, PESSOAS ATENCIOSAS</h3>
+    <p>Escolha o melhor plano para <strong>você</strong> ou  para sua <strong>familia</strong></p>
+    </div>
+    <div class="cards">
+      <div class="card">
+          <img src="https://www.ahstatic.com/photos/8548_ho_00_p_346x260.jpg" alt="Avatar">
+          <div class="container">
+            <h4><b>Simples</b></h4>
+            <p>A partir de R$200 </p>
+            <a href="#"><p>Saiba mais</p></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://t-cf.bstatic.com/xdata/images/hotel/square200/121399207.webp?k=6c3c44eec350b446e7fc10397788839e24cd3f9d05cae3e091c0263709d66c12&o=&s=1" alt="Avatar">
+          <div class="container">
+            <h4><b>Premium</b></h4>
+            <p>A partir de R$500 </p>
+            <a href="#"><p>Saiba mais</p></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://t-cf.bstatic.com/xdata/images/hotel/square200/142921344.webp?k=299b5511c157c3b4b318402703e0d924e7f89d5df6bd0411e80714fe69af06df&o=&s=1" alt="Avatar">
+          <div class="container">
+            <h4><b>Médio</b></h4>
+            <p>A partir de R$300 </p>
+            <a href="#"><p>Saiba mais</p></a>
+          </div>
+        </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+          <h3>Hotel da Luna</h3>
+          <p>O melhor hotel com melhor preço</p>
+          
+      </div>
+  </footer>      
+  </body>
+</html>
